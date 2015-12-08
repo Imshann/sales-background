@@ -14,7 +14,6 @@ h2 span{
     background: url(../images/num_bg.gif);
     text-align: center;
     line-height: 34px;
-    font-weight:bold;
     font-size: 18px;
 }
 .list{
@@ -27,8 +26,14 @@ h2 span{
     font-size: 20px;
     text-indent: 67px;
     color:#aaa;
-    font-weight: bold;
     border-bottom:1px solid #000; 
+}
+.list input{
+    line-height:58px ;
+    height:58px ;
+    font-size: 20px;
+    color:#aaa;
+    border:none; 
 }
 .bottom-btn{
     height: 120px;

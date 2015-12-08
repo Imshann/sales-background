@@ -14,11 +14,16 @@ h2{
 .add_contact li{
     line-height:58px ;
     height:58px ;
-    font-size: 20px;
     text-indent: 67px;
-    color:#666;
-    font-weight: bold;
+    font-size: 20px;
     border-bottom:1px solid #000; 
+}
+.add_contact input{
+    border:none;
+    line-height:58px ;
+    height:58px ;
+    font-size: 20px;
+    color:#666;
 }
 .add_contact .add-on{
     color:#333;

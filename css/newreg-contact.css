@@ -14,7 +14,6 @@ h2 span{
     background: url(../images/num_bg.gif);
     text-align: center;
     line-height: 34px;
-    font-weight:bold;
     font-size: 18px;
 }
 h2 a{
@@ -39,8 +38,14 @@ h3{
     font-size: 20px;
     text-indent: 67px;
     color:#aaa;
-    font-weight: bold;
     border-bottom:1px solid #000; 
+}
+.con-info input{
+    line-height:58px ;
+    height:58px ;
+    font-size: 20px;
+    color:#aaa;
+    border:none;
 }
 .con-info span{
     font-size: 12px;

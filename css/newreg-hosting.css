@@ -14,7 +14,6 @@ h2 span{
     background: url(../images/num_bg.gif);
     text-align: center;
     line-height: 34px;
-    font-weight:bold;
     font-size: 18px;
 }
 .host-info{
@@ -27,8 +26,14 @@ h2 span{
     font-size: 20px;
     text-indent: 67px;
     color:#aaa;
-    font-weight: bold;
     border-bottom:1px solid #000; 
+}
+.host-info input{
+    line-height:58px ;
+    height:58px ;
+    font-size: 20px;
+    color:#aaa;
+    border:none;
 }
 .host-info span{
     font-size: 12px;
@@ -40,7 +45,6 @@ h3{
     font-size:24px ;
     color:#333;
     height: 70px;
-    font-weight: bold;
     border-bottom:1px solid #000;
     line-height: 100px;
 }
@@ -54,7 +58,6 @@ h3{
 .print li{
     height: 44px;
     line-height:60px ;
-    font-weight: bold;
     font-size: 16px;
     color: #333;
     border-bottom:1px solid #000;

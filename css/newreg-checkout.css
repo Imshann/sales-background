@@ -14,7 +14,6 @@ h2 span{
     background: url(../images/num_bg.gif);
     text-align: center;
     line-height: 34px;
-    font-weight:bold;
     font-size: 18px;
 }
 .data{
@@ -27,7 +26,6 @@ h2 span{
     font-size: 20px;
     text-indent: 67px;
     color:#333;
-    font-weight: bold;
     border-bottom:1px solid #000; 
 }
 h3{
@@ -35,7 +33,6 @@ h3{
     color:#333;
     height: 64px;
     line-height: 64px;
-    font-weight: bold;
     border-bottom:1px solid #000;
     text-indent: 5px; 
 }
@@ -45,7 +42,6 @@ h3{
 }
 .order th{
     width:55% ;
-    font-weight: bold;
     height:40px ;
     color: #333;
     line-height:40px ;
@@ -57,14 +53,12 @@ h3{
     color:#333;
     line-height: 40px;
     border-bottom:1px solid #000;
-    font-weight: bold;
 }
 .select{
     text-align: center;
     color: #333;
     font-size:18px ;
     padding: 10px 0;
-    font-weight: bold;
 }
 .select input{
     margin: 0 20px;

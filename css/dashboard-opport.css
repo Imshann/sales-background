@@ -16,8 +16,15 @@ h2{
     font-size: 20px;
     text-indent: 67px;
     color:#666;
-    font-weight: bold;
     border-bottom:1px solid #000; 
+}
+.data input{
+    line-height:58px ;
+    height:58px ;
+    border:none;
+    font-size: 20px;
+    color:#666;
+    width: 60%;
 }
 .data .data-on{
     color:#333;
@@ -41,14 +48,22 @@ h2{
     font-size: 24px;
     text-indent: 30px;
     color:#333;
-    font-weight: bold;
     border-bottom:1px solid #000;
+}
+.info-data input{
+    line-height:58px ;
+    font-size: 24px;
+    height: 58px;
+    color:#333;
+    border:none;
 }
 .info-data li{
     border-top: 1px solid #000;
     border-bottom:none;
     font-size: 20px;
     color: #aaa;
+    line-height:58px ;
+    height: 58px;
     padding-left: 67px;
     position: relative;
 }

@@ -14,7 +14,6 @@ h2 span{
     background: url(../images/num_bg.gif);
     text-align: center;
     line-height: 34px;
-    font-weight:bold;
     font-size: 18px;
 }
 h2 a{
@@ -49,7 +48,6 @@ h2 a{
 h3{
     font-size:24px ;
     color:#333 ;
-    font-weight: bold;
     text-indent:10px; 
     margin: 0 auto;
     width: 590px;
@@ -67,14 +65,12 @@ h3{
     height: 14px;
     line-height: 14px;
     text-indent: 10px;
-    font-weight: bold;
 }
 .item td{
     line-height: 42px;
     height: 42px;
     border-bottom:1px solid #000;
     text-indent: 10px;
-    font-weight: bold;
     font-size: 16px;
     color: #333;
     vertical-align: middle;
@@ -90,7 +86,6 @@ h3{
     line-height:42px;
     height: 42px;
     text-indent: 10px;
-    font-weight: bold;
     border-bottom:1px solid #000;
 }
 .services td{
@@ -100,7 +95,6 @@ h3{
     line-height:42px;
     height: 42px;
     text-indent: 10px;
-    font-weight: bold;
     border-bottom:1px solid #000;
 }
 .annual-text{
@@ -116,7 +110,6 @@ h3{
     text-align: center;
     color:#333;
     padding:20px 0;
-    font-weight: bold;
     border-bottom:1px solid #000;
 }
 .annual-choose input{
@@ -127,7 +120,6 @@ h3{
     color:#333;
     font-size: 18px;
     text-align: center;
-    font-weight: bold;
 }
 .subtotal span{
     color:#EA5946; 

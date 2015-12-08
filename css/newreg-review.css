@@ -14,7 +14,6 @@ h2 span{
     background: url(../images/num_bg.gif);
     text-align: center;
     line-height: 34px;
-    font-weight:bold;
     font-size: 18px;
 }
 h3{
@@ -22,7 +21,6 @@ h3{
     color: #333;
     line-height:58px ;
     height:58px ;
-    font-weight: bold;
     border-bottom:1px solid #000;
     text-indent: 67px; 
 }
@@ -36,7 +34,6 @@ h3{
     font-size: 20px;
     text-indent: 67px;
     color:#aaa;
-    font-weight: bold;
     border-bottom:1px solid #000; 
 }
 .bottom-btn{
@@ -54,7 +51,6 @@ h3{
     line-height: 50px;
     position: absolute;
     bottom: 0;
-    font-weight: bold;
 }
 
 
