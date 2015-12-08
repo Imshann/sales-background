@@ -1,0 +1,47 @@
+.content{
+width:600px;
+margin:0 auto;
+min-height: 1024px;
+position: relative;
+}
+.top-border{
+height:3px;
+width:100%;
+background:#FFB120 ;
+}
+.nav{
+    height:56px;
+    background: #444;
+}
+.nav li{
+    float:left;
+    height:56px;
+    margin-left: 1px;
+}
+.nav a{
+    width:130px;
+    line-height: 56px;
+    font-size:18px;
+    color:#fff;
+    background:#555;
+    display: block;
+    text-align: center;
+}
+.nav .setting-li{
+    float: right;
+}
+.nav .settings{
+    line-height: 0px;
+    height:55px;
+    width: 66px;
+}
+.nav .nav-on{
+    background:#FFB120;
+}
+.foot-border{
+    height:3px;
+    width: 100%;
+    background: #FFB120;
+    position:absolute;
+    bottom: 0;
+}

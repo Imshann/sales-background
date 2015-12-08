@@ -1,0 +1,143 @@
+h2{
+    font-size:26px;
+    color:#EA5946;
+    line-height:66px ;
+    background:#eee;
+    position: relative;
+}
+h2 span{
+    width:34px;
+    height:34px;
+    float:left;
+    margin-top: 18px;
+    margin-left: 18px;
+    margin-right: 8px;
+    background: url(../images/num_bg.gif);
+    text-align: center;
+    line-height: 34px;
+    font-weight:bold;
+    font-size: 18px;
+}
+.cue{
+    font-size:12px ;
+    position: absolute;
+    bottom: 4px;
+    right: 10px;
+    color: #f00;
+
+}
+.bottom-btn{
+    height: 120px;
+}
+.bottom-btn a{
+    float: left;
+    width:200px;
+    height: 50px;
+    font-size:20px ;
+    color:#fff;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+.btn-positon{
+    margin:0 auto;
+    width:432px;
+}
+.bottom-btn .btn1{
+    background: #EA5946;
+}
+.bottom-btn .btn2{
+    background: #666;
+    margin-left: 30px;
+}
+.package{
+    width:100%;
+}
+.package .choose{
+    text-align: center;
+    width: 50px;
+}
+.package tr{
+    height:58px ;
+    font-weight: bold;
+    color: #333;
+
+}
+.package td{
+    font-size: 26px;
+}
+.basic{
+    background:#FCE127;
+}
+.adcance{
+    background:#FFA644;
+}
+.pro{
+    background:#4A9CFF;
+}
+.enterprise{
+    background:#DC73FF;
+}
+.package .mothly{
+    font-size:14px ;
+    line-height:18px; 
+}
+.package .annually{
+    font-size:14px ;
+    line-height:18px ;
+    color:#FF0000;
+}
+.features{
+    width:590px;
+    margin: 0 auto;
+}
+.features tr{
+    height: 58px;
+    color: #333;
+    font-weight: bold;
+
+}
+.features .title{
+    font-size: 30px;
+    width:60%;
+    text-indent: 13px;
+    text-align: left;
+}
+.features td{
+    font-size: 18px;
+    text-indent: 13px;
+    border-bottom:1px solid #000; 
+}
+.features th{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    width:10%;
+    text-align: center;
+    border-bottom:1px solid #000; 
+}
+.features th span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:100%;
+    height: 5px;
+}
+.yellow{
+    background-color:#FCE127 ;
+}
+.orange{
+    background-color: #FFA644;
+}
+.blue{
+    background-color:#4A9CFF ;
+}
+.purple{
+    background-color:#DC73FF ;
+}
+
+
+
+
+
+

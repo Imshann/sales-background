@@ -1,0 +1,93 @@
+
+h2{
+    font-size:26px;
+    color:#EA5946;
+    line-height:66px ;
+    background:url(../images/contect.gif) no-repeat 19px 12px #eee;
+    text-indent: 65px;
+}
+.data{
+    width: 590px;
+    margin:0 auto;
+}
+.data li{
+    line-height:58px ;
+    height:58px ;
+    font-size: 20px;
+    text-indent: 67px;
+    color:#666;
+    font-weight: bold;
+    border-bottom:1px solid #000; 
+}
+.data .data-on{
+    color:#333;
+}
+.data-on a{
+    float: right;
+    margin-top: 3px;
+    margin-right: 9px;
+}
+.data span{
+    font-size: 12px;
+    vertical-align: top;
+    line-height: 20px;
+}
+.information{
+    width: 590px;
+    margin:0 auto;
+}
+.information li{
+    line-height:58px ;
+    font-size: 24px;
+    text-indent: 30px;
+    color:#333;
+    font-weight: bold;
+    border-bottom:1px solid #000;
+}
+.info-data li{
+    border-top: 1px solid #000;
+    border-bottom:none;
+    font-size: 20px;
+    color: #aaa;
+    padding-left: 67px;
+    position: relative;
+}
+.info-data span{
+    position: absolute;
+    left: -20px;
+    color:#333 ;
+    top: 5px;
+}
+.bottom-btn{
+    height: 120px;
+}
+.bottom-btn a{
+    float: left;
+    width:200px;
+    height: 50px;
+    font-size:20px ;
+    color:#fff;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 50px;
+}
+.btn-positon{
+    margin:0 auto;
+    width:432px;
+}
+.bottom-btn .btn1{
+    background: #EA5946;
+}
+.bottom-btn .btn2{
+    background: #666;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
