@@ -24,9 +24,18 @@ h2 span{
     line-height:58px ;
     height:58px ;
     font-size: 20px;
-    text-indent: 67px;
     color:#333;
     border-bottom:1px solid #000; 
+}
+.data input{
+    border:medium none;
+    line-height:58px ;
+    height:58px ;
+    font-size: 20px;
+    color:#333;
+    outline:none;
+    text-indent: 67px;
+    width:100%;
 }
 h3{
     font-size: 26px;

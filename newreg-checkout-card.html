@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/newreg-checkout-card.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link href='http://fonts.useso.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.11.1.min.js"></script>
 </head>
 <body>
     <div class="content">
@@ -41,11 +42,11 @@
             <span>7</span>Acocunt Information
         </h2>
         <ul class="data">
-            <li>Name Data</li>
-            <li>Address Data</li>
-            <li>City Data</li>
-            <li>States Data</li>
-            <li>Zip Code Data</li>
+            <li><input type="text" value="Name Data"></li>
+            <li><input type="text" value="Address Data"></li>
+            <li><input type="text" value="City Data"></li>
+            <li><input type="text" value="States Data"></li>
+            <li><input type="text" value="Zip Code Data"></li>
         </ul>
         <h3>Order Details</h3>
         <table class="order" cellpadding="0" cellspacing="0">
@@ -81,19 +82,20 @@
             </tr>
         </table>
         <h3>Select payment method</h3>
+        <form action="" id="check-card">
         <div class="select">
-            Credit Card <input  type="radio">
-            Cash<input  type="radio">
-            Check<input  type="radio">
+            <label for="card">Credit Card</label><input  type="radio" checked id="card" />
+            <label for="cash">Cash</label><input  type="radio" id="cash" />
+            <label for="check">Check</label><input  type="radio" id="check" />
         </div>
         <table class="card">
             <tr>
                 <th>Name on Card</th>
-                <td><input type="text" name="" id="" class="card-name"></td>
+                <td><input type="text" name="cardname" id="" class="card-name" ></td>
             </tr>
             <tr>
                 <th>Credit Card</th>
-                <td><input type="text" name="" id="" class="card-credit"></td>
+                <td><input type="text" name="ccnumber" id="" class="card-credit"></td>
             </tr>
             <tr>
                 <th>Expiration Date</th>
@@ -108,16 +110,16 @@
             </tr>
             <tr>
                 <th>CVV Code</th>
-                <td><input type="text" name="" id="" class="card-code">(3 digits code behind the card or 4 digits code in front on AMEX cards)</td>
+                <td class="position-rel"><input type="text" name="code" id="" class="card-code"><p class="code-tis">(3 digits code behind the card or 4 digits code in front on AMEX cards)</p></td>
             </tr>
             <tr>
                 <th>Billing Zip Code</th>
-                <td><input type="text" name="" id="" class="card-zip"></td>
+                <td><input type="text" name="zip" id="" class="card-zip"></td>
             </tr>
         </table>
         <div class="bottom-btn">
             <div class="btn-positon">
-                <a href="javascript:void(0)" class="btn1">Checkout</a>
+                <input type="submit" class="btn1" value="Checkout"></a>
                 <span>
                     <h5>Your card will be charged $100.00</h5>
                     <p>By clicking “Pay Now” you agree to vr3 express inc Terms of Service, Privacy Policy, and Charge Amount</p>
@@ -127,8 +129,36 @@
                 <div class="clear-float"></div>
             </div>
         </div>
+        </form>
         <div class="foot-border"></div>
     </div>
     
 </body>
+<script src="js/jquery.validate.min.js"></script>
+<script>
+    $('#check-card').validate({
+                debug:true,
+                rules:{
+                    cardname:{
+                        required:true
+                    },
+                    ccnumber:{
+                        required:true,
+                        creditcard:true
+                    },
+                    code:{
+                        required:true,
+                        digits:true
+                    },
+                    zip:{
+                        required:true,
+                        digits:true
+                    }
+                },
+                submitHandler:function(form){
+                    form.submit();
+                },
+                errorElement:"h6"
+            });
+</script>
 </html>

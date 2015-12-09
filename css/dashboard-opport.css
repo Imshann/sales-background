@@ -12,7 +12,6 @@ h2{
 }
 .data li{
     line-height:58px ;
-    height:58px ;
     font-size: 20px;
     text-indent: 67px;
     color:#666;
@@ -24,7 +23,17 @@ h2{
     border:none;
     font-size: 20px;
     color:#666;
-    width: 60%;
+    outline:none;
+    text-indent: 67px;
+    width:100%;
+}
+.data textarea{
+    border:none;
+    font-size: 20px;
+    color:#666;
+    outline:none;
+    text-indent: 67px;
+    width:100%;
 }
 .data .data-on{
     color:#333;
@@ -55,7 +64,10 @@ h2{
     font-size: 24px;
     height: 58px;
     color:#333;
-    border:none;
+    outline:none;
+    text-indent: 67px;
+    width:100%;
+    border: none;
 }
 .info-data li{
     border-top: 1px solid #000;
@@ -63,8 +75,6 @@ h2{
     font-size: 20px;
     color: #aaa;
     line-height:58px ;
-    height: 58px;
-    padding-left: 67px;
     position: relative;
 }
 .info-data span{

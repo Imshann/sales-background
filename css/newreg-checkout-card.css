@@ -24,9 +24,18 @@ h2 span{
     line-height:58px ;
     height:58px ;
     font-size: 20px;
-    text-indent: 67px;
     color:#333;
     border-bottom:1px solid #000; 
+}
+.data input{
+    border:medium none;
+    line-height:58px ;
+    height:58px ;
+    font-size: 20px;
+    color:#666;
+    outline:none;
+    text-indent: 67px;
+    width:100%;
 }
 h3{
     font-size: 26px;
@@ -105,6 +114,15 @@ h3{
     border-radius: 5px;
     border:1px solid #ababab;
 }
+.position-rel{
+    position: relative;
+    width: 100%;
+}
+.code-tis{
+    position: absolute;
+    top:15px;
+    right: 55px;
+}
 .card-zip{
     width:102px ;
     border-radius: 5px;
@@ -144,6 +162,14 @@ h5{
 .bottom-btn .btn1{
     background: #EA5946;
     width: 126px;
+    border:none;
+    height: 50px;
+    font-size:20px ;
+    float: left;
+    color:#fff;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 50px;
 }
 .bottom-btn .btn2{
     background: #666;

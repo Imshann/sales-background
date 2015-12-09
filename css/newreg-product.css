@@ -75,6 +75,11 @@ h3{
     color: #333;
     vertical-align: middle;
 }
+.num{
+    width: 30px;
+    font-size: 20px;
+    display: inline-block;
+}
 .services{
     width: 590px;
     margin: 0 auto;

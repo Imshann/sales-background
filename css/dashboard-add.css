@@ -13,17 +13,26 @@ h2{
 }
 .add_contact li{
     line-height:58px ;
-    height:58px ;
-    text-indent: 67px;
     font-size: 20px;
     border-bottom:1px solid #000; 
 }
 .add_contact input{
-    border:none;
+    border:medium none;
     line-height:58px ;
     height:58px ;
     font-size: 20px;
     color:#666;
+    outline:none;
+    text-indent: 67px;
+    width:100%;
+}
+.add_contact textarea{
+    border:none;
+    font-size: 20px;
+    color:#666;
+    outline:none;
+    text-indent: 67px;
+    width:100%;
 }
 .add_contact .add-on{
     color:#333;

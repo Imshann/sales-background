@@ -54,9 +54,11 @@ h2 a{
     line-height:58px ;
     height:58px ;
     font-size: 20px;
-    text-indent: 67px;
     color:#aaa;
     border-bottom:1px solid #000; 
+}
+.list-info .address,.date{
+    text-indent: 67px;
 }
 .list-info input{
     line-height:58px ;
@@ -64,12 +66,23 @@ h2 a{
     font-size: 20px;
     color:#aaa;
     border:none; 
+    outline:none;
+    text-indent: 67px;
+    width:100%;
 }
 .list-info span{
     font-size: 12px;
     vertical-align: top;
     line-height: 20px;
     color:#333;
+}
+.list-info textarea{
+    border:none;
+    font-size: 20px;
+    color:#333;
+    outline:none;
+    text-indent: 67px;
+    width:100%;
 }
 .list-info .list-on{
     color: #EA5946;

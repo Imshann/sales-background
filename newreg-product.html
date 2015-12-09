@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/newreg-product.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link href='http://fonts.useso.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.11.1.min.js"></script>
 </head>
 <body>
     
@@ -51,7 +52,7 @@
             </tr>
             <tr>
                 <td>item 1</td>
-                <td ><a href="javascript:void(0)"><img src="images/add_icon.gif" alt=""></a><span>1</span><a href="javascript:void(0)"><img src="images/cut_icon.gif" alt=""></a></td>
+                <td ><a href="javascript:void(0)" class="add"><img src="images/add_icon.gif" alt=""></a><span class="num">1</span><a href="javascript:void(0)" class="cut"><img src="images/cut_icon.gif" alt=""></a></td>
                 <td>$10.00</td>
                 <td>$10.00</td>
             </tr>
@@ -90,13 +91,13 @@
         <table cellspacing="0" cellpadding="0" class="services">
             <tr>
                 <th>Basic web package</th>
-                <td><input type="radio" name="" id=""></td>
+                <td><input type="checkbox" name="basic" id=""></td>
                 <td>$199.00</td>
                 <td>$199.00</td>
             </tr>
             <tr>
                 <th>Social media package</th>
-                <td><input type="radio" name="" id=""></td></td>
+                <td><input type="checkbox" name="social" id=""></td></td>
                 <td></td>
                 <td>$199.00</td>
             </tr>
@@ -116,7 +117,7 @@
         <h3>Annual Plan</h3>
         <p class="annual-text">You have selected {$service package} and are eligble to save 15% on monthly pan when you sign up for
 the year. Would you like to sign up for a year and save {$service package cost *.75}?</p>
-        <div class="annual-choose"><label for="yes">Yes</label><input type="radio" name="" id="yes"><label for="no">No</label><input type="radio" name="" id="no"></div>
+        <div class="annual-choose"><label for="yes">Yes</label><input type="radio" name="plan" id="yes"><label for="no">No</label><input type="radio" name="plan" id="no"></div>
         <h4 class="subtotal">Your subtotal came out to be: <span>$259.00</span></h4>
         <div class="bottom-btn">
             <div class="btn-positon">
@@ -129,4 +130,24 @@ the year. Would you like to sign up for a year and save {$service package cost *
     </div>
     
 </body>
+<script>
+    var add = $('.add');
+    var cut = $('.cut');
+    add.click(function(){
+        num = $(this).siblings('span').text();
+        if(num<999){
+            ++num;
+            $(this).siblings('span').text(num);
+        }
+    });
+    cut.click(function(){
+        num = $(this).siblings('span').text();
+        if(num>1){
+            --num;
+            $(this).siblings('span').text(num);
+        }
+    });
+
+    
+</script>
 </html>

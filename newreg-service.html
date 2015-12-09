@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/newreg-service.css">
     <link rel="stylesheet" type="text/css" href="css/base.css">
     <link href='http://fonts.useso.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.11.1.min.js"></script>
 </head>
 <body>
     
@@ -49,42 +50,199 @@
         </ul> -->
         <table class="package" cellpadding="0" cellspacing="0">
             <tr class="basic">
-                <td class="choose"><input type="radio" name=""></td>
-                <td>Basic Package</td>
+                <td class="choose"><input type="radio" name="package" id="basic" checked /></td>
+                <td><label for="basic">Basic Package</label></td>
                 <td class="mothly">Monthly<br/>Per Trans</td>
                 <td class="mothly">$50.00<br/>$00.75</td>
                 <td class="annually">Annually<br/>Per Trans</td>
                 <td class="annually">$510.00<br/>$00.50</td>
             </tr>
             <tr class="adcance">
-                <td class="choose"><input type="radio" name=""></td>
-                <td>Advance Package</td>
+                <td class="choose"><input type="radio" id="adcance" name="package"></td>
+                <td><label for="adcance">Advance Package</label></td>
                 <td class="mothly">Monthly<br/>Per Trans</td>
                 <td class="mothly">$50.00<br/>$00.75</td>
                 <td class="annually">Annually<br/>Per Trans</td>
                 <td class="annually">$510.00<br/>$00.50</td>
             </tr>
             <tr class="pro">
-                <td class="choose"><input type="radio" name=""></td>
-                <td>Pro Package</td>
+                <td class="choose"><input type="radio" id="pro" name="package"></td>
+                <td><label for="pro">Pro Package</label></td>
                 <td class="mothly">Monthly<br/>Per Trans</td>
                 <td class="mothly">$50.00<br/>$00.75</td>
                 <td class="annually">Annually<br/>Per Trans</td>
                 <td class="annually">$510.00<br/>$00.50</td>
+                
             </tr>
             <tr class="enterprise">
-                <td class="choose"><input type="radio" name=""></td>
-                <td>Enterprise Package</td>
+                <td class="choose"><input type="radio" id="enterprise" name="package"></td>
+                <td><label for="enterprise">Enterprise Package</label></td>
                 <td class="mothly">Monthly<br/>Per Trans</td>
                 <td class="mothly">$50.00<br/>$00.75</td>
                 <td class="annually">Annually<br/>Per Trans</td>
                 <td class="annually">$510.00<br/>$00.50</td>
             </tr>
         </table>
-        <table class="features" cellpadding="0" cellspacing="0">
+        <table class="features feat-basic" cellpadding="0" cellspacing="0">
             <tr>
                 <th class="title">
-    Features</th>
+    Features1</th>
+                <th>Basic <span class="yellow"></span></th>
+                <th>Advance<span class="orange"></span></th>
+                <th>Pro<span class="blue"></span></th>
+                <th>Enterprise<span class="purple"></span></th>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td><img src="images/yes.gif" alt=""></td>
+                <td><img src="images/yes.gif" alt=""></td>
+                <td><img src="images/yes.gif" alt=""></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td><img src="images/yes.gif" alt=""></td>
+                <td></td>
+                <td><img src="images/yes.gif" alt=""></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <table class="features feat-advance" cellpadding="0" cellspacing="0">
+            <tr>
+                <th class="title">
+    Features2</th>
+                <th>Basic <span class="yellow"></span></th>
+                <th>Advance<span class="orange"></span></th>
+                <th>Pro<span class="blue"></span></th>
+                <th>Enterprise<span class="purple"></span></th>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td><img src="images/yes.gif" alt=""></td>
+                <td><img src="images/yes.gif" alt=""></td>
+                <td><img src="images/yes.gif" alt=""></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td><img src="images/yes.gif" alt=""></td>
+                <td></td>
+                <td><img src="images/yes.gif" alt=""></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <table class="features feat-pro"  cellpadding="0" cellspacing="0">
+            <tr>
+                <th class="title">
+    Features3</th>
+                <th>Basic <span class="yellow"></span></th>
+                <th>Advance<span class="orange"></span></th>
+                <th>Pro<span class="blue"></span></th>
+                <th>Enterprise<span class="purple"></span></th>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td><img src="images/yes.gif" alt=""></td>
+                <td><img src="images/yes.gif" alt=""></td>
+                <td><img src="images/yes.gif" alt=""></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td><img src="images/yes.gif" alt=""></td>
+                <td></td>
+                <td><img src="images/yes.gif" alt=""></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Feature 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <table class="features feat-enterprise" cellpadding="0" cellspacing="0">
+            <tr>
+                <th class="title">
+    Features4</th>
                 <th>Basic <span class="yellow"></span></th>
                 <th>Advance<span class="orange"></span></th>
                 <th>Pro<span class="blue"></span></th>
@@ -144,4 +302,27 @@
     </div>
     
 </body>
+<script>
+   //var a = $('input[type="radio"]'); 
+   var check = $('.package').find('input');
+   var features = $('.features');
+   console.log(features);
+   check.eq(0).click(function(){
+        features.css('display','none');
+        features.eq(0).css('display','block');
+   });
+   check.eq(1).click(function(){
+        features.css('display','none');
+        features.eq(1).css('display','block');
+        console.log(features.eq(1));
+   });
+   check.eq(2).click(function(){
+        features.css('display','none');
+        features.eq(2).css('display','block');
+   });
+   check.eq(3).click(function(){
+        features.css('display','none');
+        features.eq(3).css('display','block');
+   });
+</script>
 </html>

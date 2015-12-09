@@ -29,7 +29,6 @@ h2 a{
     line-height:58px ;
     height:58px ;
     font-size: 20px;
-    text-indent: 67px;
     color:#aaa;
     border-bottom:1px solid #000; 
 }
@@ -39,6 +38,9 @@ h2 a{
     font-size: 20px;
     color:#aaa;
     border:none;
+    outline:none;
+    text-indent: 67px;
+    width:100%;
 }
 .con-info span{
     font-size: 12px;
